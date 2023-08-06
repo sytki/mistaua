@@ -1,0 +1,158 @@
+﻿
+<!doctype html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title>Отчётные документы за проживание в квартире</title>
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="assets/jquery-2.0.3.js"></script>
+	<script src="assets/bootstrap.js"></script>
+	<script src="assets/contacts-form.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<div class="contacts">
+				<p class="text-center lead">Хотите заказать отчетные документы?</p>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="contacts">
+				<p class="text-center lead">Звоните прямо сейчас +380987707957</p>
+			</div>
+		</div>
+	</div>
+
+  <br/>
+
+  
+
+	<div class="row">
+		<div class="col-sm-12">
+			<h1 class="text-center">Отчетные документы за проживание<br/><small>в Киеве, а так же в любом другом городе Украины</small></h1>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<p class="text-center">
+				<img src="images/question.png" alt="Документы о проживании"/>
+			</p>
+		</div>
+
+		<div class="col-sm-8">
+			<h2>Нужны отчетные документы о проживании?</h2>
+			<p class="lead">Вы часто ездите в командировки по територии Украины и Вам нужны отчетные
+				документы о проживании в съемной квартире, а владельцы квартир не всегда предоставляют нужные Вам документы?
+				Мы с удовольствием поможем Вам и сделаем весь необходимый пакет документов о проживании в любом городе Украины.</p>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<p class="text-center">
+				<img src="images/checklist.png" alt="Документы о проживании"/>
+			</p>
+		</div>
+
+		<div class="col-sm-8">
+			<h2>Какой пакет документов Вы получите?</h2>
+			<ul class="lead">
+				<li>Квитанцию приходно кассового ордера - чек с мокрой печатью.</li>
+				<li>Копия свидетельства плательщика единого налога.</li>
+				<li>Копия Свидетельство о государственной регистрации.</li>
+				<li>Копия выписки из единого государственного реестра юридических лиц и физических лиц &ndash; предпринимателей.</li>
+				<li>Квитанция за проживание с мокрой печатью и подписью предпринимателя с указанием даты поселения и выселения, общего количества суток проживания, цены за сутки проживания и за весь период.</li>
+			</ul>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="row">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6">
+			<div class="contacts-footer">
+				<p class="lead text-center">Возникли вопросы?</p>
+				<p class="lead text-center">Звоните: +380987707957</p>
+			</div>
+      <br/>
+		</div>
+	</div>
+<p>
+	<a href="kiev.php">Киев</a> 
+	<a href="kharkov.php">Харьков</a> 
+	<a href="odessa.php">Одесса</a> 
+	<a href="dnepr.php">Днепр</a> 
+	<a href="lvov.php">Львов</a> 
+	<a href="nikolaev.php">Николаев</a> 
+	<a href="poltava.php">Полтава</a> 
+	<a href="chmelnyck.php">Хмельницьк</a> 
+	<a href="czerkasy.php">Черкаси</a>
+	<a href="czernigiw.php">Чернігів</a>
+	<a href="czernywci.php">Чернівці</a>
+	<a href="ivano-frankiwsk.php">Івано-Франківськ</a>
+	<a href="kropywnyck.php">Кропивницький</a>
+	<a href="luck.php">Луцьк</a>
+	<a href="riwne.php">Рівне</a>
+	<a href="sumy.php">Суми</a>
+	<a href="uzhgorod.php">Ужгород</a>
+	<a href="vinnyca.php">Вінниця</a>
+	<a href="zaporyzha.php">Запоріжжя</a>
+	<a href="zhytomyr.php">Житомир</a>
+
+</p>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Форма заказа</h4>
+      </div>
+      <div class="modal-body">
+        <p class="form-tips">Все поля обязательны к заполнению!</p>
+        <div class="messages"></div>
+
+        <div class="form-group" id="nameitem">
+          <label class="control-label" for="user_name">Имя</label>
+          <input type="text" class="form-control" name="user_name" id="user_name" placeholder="Укажите Ваше имя">
+        </div>
+
+        <div class="form-group" id="phoneitem">
+          <label class="control-label" for="user_phone">Телефон</label>
+          <input type="text" class="form-control" name="user_phone" id="user_phone" placeholder="Укажите Ваш телефон">
+        </div>
+
+        <div class="form-group" id="emailitem">
+          <label class="control-label" for="user_email">Email</label>
+          <input type="email" class="form-control" name="user_email" id="user_email" placeholder="Укажите Ваш email">
+        </div>
+
+        <div class="form-group" id="messageitem">
+          <label class="control-label" for="user_message">Сообщение</label>
+          <textarea class="form-control" rows="3" name="user_message" id="user_message" placeholder="Сообщение"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="submit" class="btn btn-primary" id="btn_submit">Отправить заказ</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
